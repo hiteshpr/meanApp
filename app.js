@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const product = require('./routes/product.route'); // Imports routes for the products
+const product = require('./routes/product.route'); 
 const app = express();
 app.use('/products', product);
 let port = 8000;
